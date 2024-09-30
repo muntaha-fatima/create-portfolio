@@ -1,0 +1,163 @@
+:root {
+    --primary-color: f8e9b7248, 233, 183 
+    HSL
+     46, 26%, 85%;
+    --secondary-color: f8e9b7; 
+    --neutral-light: #f0e2b5d6; 
+    --neutral-dark: #202020; 
+    
+    text-transform: unset;
+  }
+  
+  body {
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+    text-align: center;
+    font-size: 1.2em;
+   
+  
+  }
+  
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5;
+    margin-bottom: 1em;
+    text-transform: lowercase
+    
+
+  }
+  
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  blockquote {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 20px;
+    font-style: italic;
+    color: var(--neutral-dark);
+    text-transform: uppercase;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: #000000eb;
+    padding: 15px 0;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    flex-wrap: initial;
+  }
+
+  .skills-learning {
+    font-style: Italic;
+    text-transform: uppercase;
+    
+    
+  }
+  
+
+  nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 20;
+    line-break: var(--neutral-light);
+  
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+ 
+.About h2{
+    border-bottom: 2px ;
+    display: inline;
+    box-shadow: 0 2px 5px rgba(227, 168, 68, 0.555);
+  }
+
+  nav ul li a {
+    color: #998a38ef;
+    text-decoration: oklab(from color l a b);
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 10px  #cbb26c;
+    text-transform: lowercase;
+  }
+.projects{
+    margin: 50px;
+    margin-bottom: 10px;
+  }
+
+  .project-card {
+    background-color: #cbb26c;
+    border-radius: 59px 50px;
+    padding: 10px;
+    text-transform: lowercase;
+    margin-bottom: 40px ;
+    margin-left: 90px;
+    margin-right:100px ;
+    box-shadow: 0 2px 5px rgba(227, 168, 68, 0.555);
+  }
+  
+  .project-card h3 {
+    color: var(--primary-color);
+  }
+  
+  .project-card a {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .cta-button {
+    background-color:#c3b180;
+    color:#fbfbfb;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  
+  .cta-button:hover {
+    background-color: #0000009a; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav ul {
+      text-align: center;
+
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 20px 0;
+    }
+  
+    
+  
+    .cta-button {
+      width: 100%;
+    }
+  }
+  
